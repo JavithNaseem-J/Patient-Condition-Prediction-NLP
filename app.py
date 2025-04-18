@@ -27,7 +27,7 @@ data.columns = data.columns.str.strip()
 
 
 st.subheader('📝 Enter patient condition description:')
-input_text = st.text_area('Description',height=200, placeholder="e.g. I have a headache and fever.")
+input_text = st.text_area('Description',height=150, placeholder="e.g. I have a headache and fever.")
 
 
 
