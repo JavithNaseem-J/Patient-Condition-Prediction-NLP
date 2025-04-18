@@ -15,7 +15,7 @@ stopword = stopwords.words('english')
 
 
 st.set_page_config(page_title="Patient Condition Classifier", page_icon="💊")
-st.title('🩺 Patient Condition Classifier 😷💊💉')
+st.title('Patient Condition Classifier😷💊')
 st.markdown("Classify a patient's condition from their description and get top-rated drug suggestions.")
 
 
