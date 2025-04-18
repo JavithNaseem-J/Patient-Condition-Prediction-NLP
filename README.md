@@ -9,7 +9,7 @@ The project utilizes the **Drugs.com dataset** (`drugsComTrain_raw.csv`), which 
 - **Columns**: `uniqueID`, `drugName`, `condition`, `review`, `rating`, `date`, `usefulCount`.
 - **Size**: 161,297 entries with 884 unique conditions and 3,436 unique drugs.
 - **Key Usage**: 
-  - The `review` column is used to train the condition prediction model.
+  - The `review`,`condition` column is used to train the condition prediction model.
   - The `drugName`, `rating`, and `usefulCount` columns are used to recommend top drugs for predicted conditions.
 
 ## Methodology
