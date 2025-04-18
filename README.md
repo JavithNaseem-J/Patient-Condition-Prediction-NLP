@@ -9,7 +9,7 @@ The project utilizes the **Drugs.com dataset** (`drugsComTrain_raw.csv`), which 
 - **Columns**: `uniqueID`, `drugName`, `condition`, `review`, `rating`, `date`, `usefulCount`.
 - **Size**: 161,297 entries with 884 unique conditions and 3,436 unique drugs.
 - **Key Usage**: 
-  - The `review` column is used to train the condition prediction model.
+  - The `review`,`condition` column is used to train the condition prediction model.
   - The `drugName`, `rating`, and `usefulCount` columns are used to recommend top drugs for predicted conditions.
 
 ## Methodology
@@ -83,7 +83,7 @@ To run this project locally, follow these steps:
 3. **Predict**: Click the "Predict Condition" button to view the predicted condition and top drug recommendations.
 4. **View Results**:
    - The predicted condition is displayed prominently.
-   - Up to three top-rated drugs are listed if available; otherwise, a warning is shown.
+   - Up to three top-rated drugs are listed.
 
 ## Files
 - **`app.py`**: Main Streamlit application script for the web interface.
