@@ -83,7 +83,7 @@ To run this project locally, follow these steps:
 3. **Predict**: Click the "Predict Condition" button to view the predicted condition and top drug recommendations.
 4. **View Results**:
    - The predicted condition is displayed prominently.
-   - Up to three top-rated drugs are listed if available; otherwise, a warning is shown.
+   - Up to three top-rated drugs are listed.
 
 ## Files
 - **`app.py`**: Main Streamlit application script for the web interface.
