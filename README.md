@@ -100,5 +100,12 @@ To run this project locally, follow these steps:
 - **User Feedback**: Add a feedback mechanism to refine predictions based on user input.
 - **Multilingual Support**: Extend preprocessing to handle non-English descriptions.
 
+![Screenshot 2025-04-19 150148](https://github.com/user-attachments/assets/bf8528ca-80e2-4a6d-8fa3-6a34eab9b83e)
+
+<br>
+
+![image](https://github.com/user-attachments/assets/241727d5-b641-43a4-b74a-c404cfc5d4ba)
+
+
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
